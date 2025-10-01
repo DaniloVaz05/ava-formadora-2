@@ -1,0 +1,12 @@
+.user-card {
+  margin-bottom: 15px;
+  
+  ion-item {
+    --background: transparent;
+    font-size: 0.9em;
+  }
+}
+
+ion-spinner {
+  transform: scale(1.5);
+}

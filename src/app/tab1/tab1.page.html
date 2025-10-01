@@ -1,17 +1,23 @@
 <ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Tab 1
-    </ion-title>
+  <ion-toolbar color="primary">
+    <ion-title>Bem-vindo</ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 1</ion-title>
-    </ion-toolbar>
-  </ion-header>
+<ion-content [fullscreen]="true" class="ion-padding">
+  <div class="welcome-container">
+    <ion-card>
+      <ion-card-header>
+        <ion-card-title>Avaliação Formadora 2</ion-card-title>
+        <ion-card-subtitle>Centro Universitário Augusto Motta</ion-card-subtitle>
+      </ion-card-header>
+      
+      <ion-card-content>
+        <p>Este aplicativo foi desenvolvido como parte da avaliação do módulo Mobile.</p>
+        <p><strong>Professor:</strong> Charles Bastos</p>
+        <p><strong>Semestre:</strong> 2/2025</p>
+      </ion-card-content>
+    </ion-card>
 
-  <app-explore-container name="Tab 1 page"></app-explore-container>
+  </div>
 </ion-content>

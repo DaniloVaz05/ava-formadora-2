@@ -1,0 +1,15 @@
+.identification-card {
+  margin: 20px auto;
+  max-width: 500px;
+  
+  img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+  }
+}
+
+ion-item {
+  --background: transparent;
+  margin-bottom: 10px;
+}
